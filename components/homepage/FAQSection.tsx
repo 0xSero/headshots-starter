@@ -10,10 +10,10 @@ export default function FAQSection() {
             FAQ
           </Badge>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Frequently Asked Questions
+            Najczęściej Zadawane Pytania
           </h2>
           <p className="max-w-[700px] text-muted-foreground text-lg">
-            Everything you need to know about our AI headshot service.
+            Wszystko, co musisz wiedzieć o naszej usłudze zdjęć biznesowych AI.
           </p>
         </div>
         <div className="mt-16">

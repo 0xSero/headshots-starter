@@ -40,8 +40,8 @@ export const Login = ({
       setTimeout(() => {
         setIsSubmitting(false);
         toast({
-          title: "Email sent",
-          description: "Check your inbox for a magic link to sign in.",
+          title: "Email wysłany",
+          description: "Sprawdź swoją skrzynkę odbiorczą, aby znaleźć magiczny link do zalogowania.",
           duration: 5000,
         });
         setIsMagicLinkSent(true);
@@ -49,10 +49,10 @@ export const Login = ({
     } catch (error) {
       setIsSubmitting(false);
       toast({
-        title: "Something went wrong",
+        title: "Coś poszło nie tak",
         variant: "destructive",
         description:
-          "Please try again, if the problem persists, contact us at hello@tryleap.ai",
+          "Spróbuj ponownie, jeśli problem będzie się powtarzał, skontaktuj się z nami pod adresem hello@tryleap.ai",
         duration: 5000,
       });
     }
@@ -102,9 +102,9 @@ export const Login = ({
     <>
       <div className="flex items-center justify-center p-8">
         <div className="flex flex-col gap-4 bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 p-4 rounded-xl max-w-sm w-full">
-          <h1 className="text-xl">Welcome</h1>
+          <h1 className="text-xl">Witaj</h1>
           <p className="text-xs opacity-60">
-            Sign in or create an account to get started.
+            Zaloguj się lub utwórz konto, aby rozpocząć.
           </p>
           {/* <Button
             onClick={signInWithGoogle}
@@ -124,25 +124,25 @@ export const Login = ({
               <div className="flex flex-col gap-2">
                 <Input
                   type="email"
-                  placeholder="Email"
+                  placeholder="Adres email"
                   {...register("email", {
                     required: true,
                     validate: {
                       emailIsValid: (value: string) =>
                         /^[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value) ||
-                        "Please enter a valid email",
+                        "Proszę podać prawidłowy adres email",
                       emailDoesntHavePlus: (value: string) =>
                         /^[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value) ||
-                        "Email addresses with a '+' are not allowed",
+                        "Adresy email ze znakiem '+' nie są dozwolone",
                       emailIsntDisposable: (value: string) =>
                         !disposableDomains.includes(value.split("@")[1]) ||
-                        "Please use a permanent email address",
+                        "Proszę użyć stałego adresu email",
                     },
                   })}
                 />
                 {isSubmitted && errors.email && (
                   <span className={"text-xs text-red-400"}>
-                    {errors.email?.message || "Email is required to sign in"}
+                    {errors.email?.message || "Email jest wymagany do zalogowania"}
                   </span>
                 )}
               </div>
@@ -155,7 +155,7 @@ export const Login = ({
               className="w-full"
               type="submit"
             >
-              Continue with Email
+              Kontynuuj z Email
             </Button>
           </form>
         </div>

@@ -25,26 +25,26 @@ interface PricingTier {
 export default function ModernPricing() {
   const tiers: PricingTier[] = [
     {
-      title: "Starter",
-      price: "1 Credit",
-      description: "Perfect for individuals looking to enhance their online presence.",
-      features: ["4 AI Headshots"],
-      buttonText: "Choose Starter",
+      title: "Start",
+      price: "1 Kredyt",
+      description: "Idealne dla osób chcących poprawić swoją obecność online.",
+      features: ["4 Zdjęcia AI"],
+      buttonText: "Wybierz Start",
     },
     {
-      title: "Basic",
-      price: "3 Credits",
-      description: "Ideal for professionals requiring frequent updates to their profiles.",
-      features: ["12 AI Headshots"],
-      buttonText: "Choose Basic",
+      title: "Podstawowy",
+      price: "3 Kredyty",
+      description: "Idealny dla profesjonalistów wymagających częstych aktualizacji profilu.",
+      features: ["12 Zdjęć AI"],
+      buttonText: "Wybierz Podstawowy",
       popular: true,
     },
     {
       title: "Premium",
-      price: "5 Credits",
-      description: "The best value with unlimited possibilities.",
-      features: ["20 AI Headshots"],
-      buttonText: "Choose Premium",
+      price: "5 Kredytów",
+      description: "Najlepsza wartość z nieograniczonymi możliwościami.",
+      features: ["20 Zdjęć AI"],
+      buttonText: "Wybierz Premium",
       bestValue: true,
     },
   ]
@@ -64,7 +64,7 @@ export default function ModernPricing() {
             >
               {tier.popular && (
                 <div className="pricing-badge">
-                  Most Popular
+                  Najpopularniejszy
                 </div>
               )}
 
@@ -84,7 +84,7 @@ export default function ModernPricing() {
                     >
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                     </svg>
-                    Best Value
+                    Najlepsza Wartość
                   </span>
                 </div>
               )}
@@ -124,12 +124,12 @@ export default function ModernPricing() {
         </div>
 
         <p className="mt-4 text-center text-sm text-muted-foreground">
-          All plans include a 7-day satisfaction guarantee. Need a custom plan?{" "}
-          <Link 
-            href="/contact" 
+          Wszystkie pakiety zawierają 7-dniową gwarancję satysfakcji. Potrzebujesz niestandardowego planu?{" "}
+          <Link
+            href="/contact"
             className="text-primary hover:underline"
-            aria-label="Contact our sales team">
-            Contact sales
+            aria-label="Skontaktuj się z naszym zespołem sprzedaży">
+            Skontaktuj się
           </Link>
         </p>
       </div>

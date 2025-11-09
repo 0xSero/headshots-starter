@@ -49,34 +49,34 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How does AI headshot generation work?",
+      question: "Jak działa generowanie zdjęć biznesowych przez AI?",
       answer:
-        "Our AI technology analyzes your uploaded selfies to understand your facial features, expressions, and style. It then generates professional headshots that maintain your likeness while enhancing quality, lighting, and background. The entire process takes about 20 minutes from upload to delivery.",
+        "Nasza technologia AI analizuje przesłane selfie, aby zrozumieć Twoje cechy twarzy, wyrażenia i styl. Następnie generuje profesjonalne zdjęcia biznesowe, które zachowują Twoje podobieństwo, poprawiając jednocześnie jakość, oświetlenie i tło. Cały proces trwa około 20 minut od przesłania do dostarczenia.",
     },
     {
-      question: "What kind of photos should I upload?",
+      question: "Jakie zdjęcia powinienem przesłać?",
       answer:
-        "For best results, upload at least 4 high-quality selfies with good lighting. Photos should be front-facing with only one person in the frame. Avoid wearing glasses or hats, and try to capture different expressions and angles for more variety in your results.",
+        "Aby uzyskać najlepsze rezultaty, prześlij co najmniej 4 selfie wysokiej jakości z dobrym oświetleniem. Zdjęcia powinny być wykonane en face, z jedną osobą w kadrze. Unikaj okularów i czapek, staraj się uchwycić różne wyrażenia twarzy i kąty dla większej różnorodności wyników.",
     },
     {
-      question: "Can I use these headshots professionally?",
+      question: "Czy mogę używać tych zdjęć profesjonalnie?",
       answer:
-        "All our plans include commercial usage rights. You can use your AI-generated headshots for LinkedIn profiles, company websites, social media, resumes, portfolios, and any other professional purpose.",
+        "Wszystkie nasze pakiety zawierają prawa do użytku komercyjnego. Możesz używać swoich zdjęć wygenerowanych przez AI na LinkedIn, stronach firmowych, mediach społecznościowych, CV, portfolio i do każdego innego celu profesjonalnego.",
     },
     {
-      question: "How many different styles can I get?",
+      question: "Ile różnych stylów mogę otrzymać?",
       answer:
-        "The number of styles depends on your plan. Basic and Premium plans include multiple style options such as professional, corporate, creative, casual, and industry-specific looks. You can preview all available styles before making your final selection.",
+        "Liczba stylów zależy od wybranego pakietu. Pakiety Podstawowy i Premium zawierają wiele opcji stylów, takich jak profesjonalny, korporacyjny, kreatywny, casualowy i specyficzne dla branży. Możesz podejrzeć wszystkie dostępne style przed dokonaniem ostatecznego wyboru.",
     },
     {
-      question: "What if I'm not satisfied with the results?",
+      question: "Co jeśli nie będę zadowolony z rezultatów?",
       answer:
-        "We stand behind our AI technology and want you to be completely satisfied. If you're not happy with your headshots, contact our support team within 7 days of delivery, and we'll work with you to improve the results or provide a refund.",
+        "Stoimy za naszą technologią AI i chcemy, abyś był w pełni zadowolony. Jeśli nie jesteś usatysfakcjonowany swoimi zdjęciami, skontaktuj się z naszym zespołem wsparcia w ciągu 7 dni od dostarczenia, a wspólnie poprawimy wyniki lub zapewnimy zwrot pieniędzy.",
     },
     {
-      question: "How quickly will I receive my headshots?",
+      question: "Jak szybko otrzymam swoje zdjęcia?",
       answer:
-        "Standard processing time is approximately 20 minutes. Premium plan users receive priority processing. Once your headshots are ready, you'll receive an email notification with a link to view and download your images.",
+        "Standardowy czas przetwarzania wynosi około 20 minut. Użytkownicy pakietu Premium otrzymują priorytetowe przetwarzanie. Gdy Twoje zdjęcia będą gotowe, otrzymasz powiadomienie e-mail z linkiem do podglądu i pobrania zdjęć.",
     },
   ]
 

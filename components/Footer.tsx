@@ -12,35 +12,35 @@ export default function Footer() {
               <span>Headshots AI</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Professional AI-generated headshots for your online presence.
+              Profesjonalne zdjęcia biznesowe AI dla Twojej obecności online.
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Product</h3>
+            <h3 className="text-sm font-medium">Produkt</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  How It Works
+                  Jak To Działa
                 </Link>
               </li>
               <li>
                 <Link href="#examples" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Examples
+                  Przykłady
                 </Link>
               </li>
               <li>
                 <Link href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Pricing
+                  Cennik
                 </Link>
               </li>
             </ul>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Resources</h3>
+            <h3 className="text-sm font-medium">Zasoby</h3>
             <ul className="space-y-2">
               <li>
-                <Link 
-                  href="https://github.com/astriaai/headshots-starter" 
+                <Link
+                  href="https://github.com/astriaai/headshots-starter"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                 >
@@ -48,17 +48,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="https://docs.astria.ai/docs/api/pack/pack/" 
+                <Link
+                  href="https://docs.astria.ai/docs/api/pack/pack/"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                 >
-                  Documentation
+                  Dokumentacja
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="https://twitter.com/Astria_AI" 
+                <Link
+                  href="https://twitter.com/Astria_AI"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                 >
@@ -68,23 +68,23 @@ export default function Footer() {
             </ul>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Legal</h3>
+            <h3 className="text-sm font-medium">Prawne</h3>
             <ul className="space-y-2">
               <li>
-                <Link 
-                  href="mailto:support@astria.ai" 
+                <Link
+                  href="mailto:support@astria.ai"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Contact
+                  Kontakt
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="https://choosealicense.com/licenses/mit/" 
+                <Link
+                  href="https://choosealicense.com/licenses/mit/"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                 >
-                  License
+                  Licencja
                 </Link>
               </li>
             </ul>
@@ -92,11 +92,11 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t pt-8 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Headshots AI. All rights reserved.
+            © {new Date().getFullYear()} Headshots AI. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              Open-source powered by{" "}
+              Open-source napędzane przez{" "}
               <Link
                 href="https://www.astria.ai/"
                 className="text-primary hover:underline"

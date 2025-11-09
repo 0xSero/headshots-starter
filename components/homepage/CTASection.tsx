@@ -15,14 +15,14 @@ export default function CTASection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center gap-4 text-center md:gap-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Get your AI headshots today
+            Uzyskaj swoje zdjęcia biznesowe AI już dziś
           </h2>
           <p className="max-w-[700px] text-gray-300 text-lg">
-            Join thousands of professionals who have elevated their online presence with our AI-generated headshots.
+            Dołącz do tysięcy profesjonalistów, którzy podnieśli swoją obecność online dzięki naszym zdjęciom generowanym przez AI.
           </p>
           <Link href="/login" className="mt-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-              Create your headshots now
+              Stwórz swoje zdjęcia teraz
             </Button>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function CTASection() {
             <div key={i} className="overflow-hidden rounded-lg">
               <Image
                 src={src || "/placeholder.svg"}
-                alt="AI Generated Headshot"
+                alt="Zdjęcie Biznesowe Wygenerowane przez AI"
                 width={300}
                 height={400}
                 className="h-auto w-full object-cover"

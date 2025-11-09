@@ -3,21 +3,21 @@ import TestimonialCard from "@/components/homepage/testimonial-card"
 
 const testimonials = [
   {
-    quote: "The quality of these AI headshots is incredible. I've updated all my professional profiles and received so many compliments.",
-    author: "Sarah Johnson",
-    role: "Marketing Director",
+    quote: "Jakość tych zdjęć AI jest niewiarygodna. Zaktualizowałam wszystkie moje profile zawodowe i otrzymałam mnóstwo komplementów.",
+    author: "Anna Kowalska",
+    role: "Dyrektor Marketingu",
     avatarUrl: "/homepage/example0001.png"
   },
   {
-    quote: "As a freelancer, having professional headshots was a game-changer for my personal brand. The process was so quick and easy!",
-    author: "Michael Chen",
+    quote: "Jako freelancer, profesjonalne zdjęcia biznesowe zmieniły moją markę osobistą. Proces był tak szybki i prosty!",
+    author: "Piotr Nowak",
     role: "UX Designer",
     avatarUrl: "/homepage/example0002.png"
   },
   {
-    quote: "I was skeptical at first, but the results blew me away. These look better than the professional photos I paid hundreds for.",
-    author: "Mark Williams",
-    role: "Software Engineer",
+    quote: "Byłem sceptyczny na początku, ale rezultaty mnie zaskoczyły. Wyglądają lepiej niż profesjonalne zdjęcia, za które zapłaciłem setki złotych.",
+    author: "Marek Wiśniewski",
+    role: "Inżynier Oprogramowania",
     avatarUrl: "/homepage/example0003.png"
   }
 ]
@@ -28,11 +28,11 @@ export default function TestimonialsSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center gap-4 text-center md:gap-8">
           <Badge variant="outline" className="mb-2">
-            Testimonials
+            Opinie
           </Badge>
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Our Users Say</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Co Mówią Nasi Użytkownicy</h2>
           <p className="max-w-[700px] text-muted-foreground text-lg">
-            Thousands of professionals have transformed their online presence with our AI headshots.
+            Tysiące profesjonalistów przekształciło swoją obecność online dzięki naszym zdjęciom biznesowym AI.
           </p>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-3">
