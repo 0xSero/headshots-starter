@@ -47,16 +47,16 @@ export default async function Navbar() {
         {user && (
           <nav className="hidden md:flex gap-6">
             <Link href="/overview" className="text-sm font-medium hover:text-primary transition-colors">
-              Home
+              Strona główna
             </Link>
             {packsIsEnabled && (
               <Link href="/overview/packs" className="text-sm font-medium hover:text-primary transition-colors">
-                Packs
+                Pakiety
               </Link>
             )}
             {stripeIsConfigured && (
               <Link href="/get-credits" className="text-sm font-medium hover:text-primary transition-colors">
-                Get Credits
+                Kup Kredyty
               </Link>
             )}
           </nav>
@@ -68,10 +68,10 @@ export default async function Navbar() {
           {!user && (
             <>
               <Link href="/login" className="hidden sm:block text-sm font-medium hover:text-primary transition-colors">
-                Login
+                Zaloguj się
               </Link>
               <Link href="/login">
-                <Button>Create headshots</Button>
+                <Button>Stwórz zdjęcia</Button>
               </Link>
             </>
           )}
@@ -98,7 +98,7 @@ export default async function Navbar() {
                       className="w-full text-left"
                       variant="ghost"
                     >
-                      Log out
+                      Wyloguj się
                     </Button>
                   </form>
                 </DropdownMenuContent>

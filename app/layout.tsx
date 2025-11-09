@@ -18,8 +18,8 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: "Headshots AI",
-  description: "Generate awesome headshots in minutes using AI",
+  title: "Zdjęcia Biznesowe AI - Profesjonalne Zdjęcia Profilowe | Headshots AI",
+  description: "Wygeneruj autentyczne zdjęcia biznesowe w kilka minut dzięki AI. Idealne na LinkedIn, CV i wizytówki. 10x taniej niż tradycyjny fotograf – od 99 zł.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pl" suppressHydrationWarning>
       <body className="min-h-screen flex flex-col bg-background">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AnnouncementBar />
